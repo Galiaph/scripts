@@ -34,8 +34,8 @@ def clear_tree(ip, user, pas, tree):
 
         start = 1
 
-        if (tree == 0):
-            tree = 8
+        if tree == 0:
+            tree = 16
         else:
             start = tree
 
@@ -62,6 +62,12 @@ def clear_tree(ip, user, pas, tree):
         
         tel.write(b'exit\n')
         tel.read_until(b'#')
+
+        if tree != 0:
+            print('Current active-onu')
+            search2 = re.findall(r'online (\d{1,2})', parse)
+            print(search2[0])
+
         tel.write(b'save\n')
         print(tel.read_until(b'#', timeout=10).decode('utf-8'))
 
@@ -93,8 +99,8 @@ if __name__ == "__main__":
     if args.tree:
         try:
             tree = int(args.tree)
-            if (tree > 16 or tree < 0):
-                print("Not correct tree value")
+            if (tree < 1 or tree > 16):
+                print("Incorrect tree range (1-16)")
                 exit()
         except ValueError:
             tree = 0
