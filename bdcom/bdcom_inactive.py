@@ -60,8 +60,6 @@ def clear_tree(ip, user, pas, tree):
         tel.read_until(b'#')
         tel.write(b'exit\n')
         tel.read_until(b'#')
-        tel.write(b'write all\n')
-        print(tel.read_until(b'#', timeout=10).decode('utf-8'))
 
         if tree != 0:
             print('Current active-onu')
@@ -69,6 +67,9 @@ def clear_tree(ip, user, pas, tree):
             parse = tel.read_until(b'#').decode('utf-8')
             search = re.findall(r'Interface EPON0/(\d{1,2}) has bound (\d{1,2})', parse)
             print(search[0][1])
+
+        tel.write(b'write all\n')
+        print(tel.read_until(b'#', timeout=10).decode('utf-8'))
 
 
 if __name__ == "__main__":
