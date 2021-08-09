@@ -63,7 +63,7 @@ def clear_tree(ip, user, pas, tree):
         tel.write(b'exit\n')
         tel.read_until(b'#')
 
-        if tree != 0:
+        if start != 1:
             print('Current active-onu')
             search2 = re.findall(r'online (\d{1,2})', parse)
             print(search2[0])
