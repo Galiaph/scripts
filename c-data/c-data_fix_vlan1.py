@@ -9,6 +9,7 @@ Created on Thu Jan 13 13:36:48 2022
 
 import argparse
 import telnetlib
+import os.path
 import re
 import sys
 import datetime
@@ -89,7 +90,12 @@ class VlanFixer:
         return -1
     
     def _save_up_down_log_csv(self, log):
-        with open("up_down_log.log", 'a') as f:
+        filename = "up_down_log.csv"
+        if not os.path.exists(filename):
+            with open (filename, 'w') as f:
+                f.write("poll_time;ip;tree;onuid;seq;date_up;date_down;time_up;time_down;reason\n")
+                
+        with open(filename, 'a') as f:
             poll_time = datetime.datetime.now()
             for i, onu_session in enumerate(log):
                 line = ""
@@ -150,8 +156,45 @@ class VlanFixer:
                 records.append(record)
             
         # print(records)
+        
+        self._connection.write(b'exit\n')
+        raw = self._connection.read_until(b'#')
+        debug_print(raw.decode('utf-8'))
             
         return records
+    
+    def _re_register_onu(self):
+        self._connection.write(b'interface epon 0/0\n')
+        raw = self._connection.read_until(b'#')
+        debug_print(raw.decode('utf-8'))
+        
+        self._connection.write(b'ont re-register %d %d\n' %  (self._tree, self._onuid))
+        raw = self._connection.read_until(b'#')
+        debug_print(raw.decode('utf-8'))
+        
+        
+    def _show_mac_address_ont(self):
+        self._connection.write(b'show mac-address ont 0/0/%d %d\n' % (self._tree, self._onuid))
+        raw = self._connection.read_until(b'#')
+        debug_print(raw.decode('utf-8'))
+        
+        decoded = raw.decode("utf-8")
+        res = []
+        
+        if decoded.find("There is not any MAC address record") > -1:
+           return  res
+       
+        lines = decoded.split("\r\n")[6:-3]
+        # print("\n".join(lines)) 
+        
+        for line in lines:
+            cols = line.split()
+            mac = cols[0]
+            vlan = cols[1]
+        
+            res.append((mac, vlan))
+            
+        return res
             
     def run(self):
         self._connection = self._connect(self._ip, 23)
@@ -166,140 +209,25 @@ class VlanFixer:
             elif onu_status == ONU_STATUS_ONLINE:
                 print("Onu epon0/%d:%d is online" % (self._tree, self._onuid))
                 
+                mac_vlan = self._show_mac_address_ont()
+                
+                for (mac, vlan) in mac_vlan:
+                    print("MAC %s vlan %s" % (mac, vlan))
+                    
+                for (mac, vlan) in mac_vlan:
+                    if int(vlan) == 1:
+                        print("Found mac %s in vlan %s" % (mac, vlan))
+                
                 up_down_log = self._get_onu_up_down_log()
                 self._save_up_down_log_csv(up_down_log)
+                
+                self._re_register_onu()
                 
         self._connection.close()
     
 
 def check_ip(ip):
     return re.fullmatch(r'^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$', ip)
-
-def connect(ip, port):
-    return telnetlib.Telnet(ip, port, 5)
-
-def login(tel, user, password):
-    raw = tel.read_until(b'User name:')
-    debug_print(raw.decode('utf-8'))
-    tel.write(user.encode('utf-8') + b'\n')
-    
-    raw = tel.read_until(b'User password:')
-    debug_print(raw.decode('utf-8'))
-    tel.write(password.encode('utf-8') + b'\n')
-    
-    raw = tel.read_until(b'>')
-    debug_print(raw.decode('utf-8'))
-    tel.write(b'enable\n')
-    
-    raw = tel.read_until(b'#')
-    debug_print(raw.decode('utf-8'))
-    tel.write(b'config\n')
-    
-    raw = tel.read_until(b'#')
-    debug_print(raw.decode('utf-8'))
-    tel.write(b'vty output show-all\n')
-    
-    raw = tel.read_until(b'#')
-    debug_print(raw.decode('utf-8'))
-    
-    return 1
-
-def get_onu_status(tel, tree, onuid):
-    tel.write(b'show ont info 0/0 %d all\n' % (tree))
-    raw = tel.read_until(b'#')
-    debug_print(raw.decode('utf-8'))
-    
-    lines = raw.decode('utf-8').split("\r\n")[5:-4]
-    
-    # print("\n".join(lines))
-    
-    for line in lines:
-        cols = line.split()
-        # print(cols)
-        
-        tree_num = int(cols[1])
-        onu_num = int(cols[2])
-        
-        if tree == tree_num & onuid == onu_num: 
-            # print(cols)
-            onu_status = cols[5]
-            if onu_status == "online":
-                return 0
-            elif onu_status == "offline":
-                return 1
-            elif onu_status == "powerdown":
-                return 2
-    
-    return -1
-
-# def save_up_down_log_csv(ip, tree, onuid, log):
-    
-
-def get_onu_up_down_log(tel, tree, onuid):
-    tel.write(b'interface epon 0/0\n')
-    raw = tel.read_until(b'#')
-    debug_print(raw.decode('utf-8'))
-    
-    tel.write(b'show ont up-down-log %d %d\n' % (tree, onuid))
-    raw = tel.read_until(b'#')
-    debug_print(raw.decode('utf-8'))
-    
-    lines = raw.decode('utf-8').split("\r\n")[4:-2]
-    
-    records = []
-    for line in lines:
-        cols = line.split()
-        # print(cols)
-        
-        if len(cols) > 3:
-            date_up   = cols[1]
-            time_up   = cols[2]
-            
-            date_down = cols[3]
-            time_down = cols[4]
-            
-            reason    = cols[5]
-        
-            record = {"date_up"   : date_up, 
-                      "time_up"   : time_up,
-                      "date_down" : date_down,
-                      "time_down" : time_down,
-                      "reason"    : reason}
-            
-            records.append(record)
-        else:
-            date_up   = cols[1]
-            time_up   = cols[2]
-            
-            record = {"date_up"   : date_up, 
-                      "time_up"   : time_up}
-            
-            records.append(record)
-        
-    print(records)
-        
-    return -1
-
-def fix_vlan1(ip, user, password, tree, onuid):
-    tel = connect(ip, 23)
-    res = login(tel, user, password)
-    
-    if res == 1:
-        onu_status = get_onu_status(tel, tree, onuid)
-        if onu_status == ONU_STATUS_OFFLINE:
-            print("Onu epon0/%d:%d is offline" % (tree, onuid))
-        elif onu_status == ONU_STATUS_POWERDOWN:
-            print("Onu epon0/%d:%d is powerdown" % (tree, onuid))
-        elif onu_status == ONU_STATUS_ONLINE:
-            print("Onu epon0/%d:%d is online" % (tree, onuid))
-            
-            up_down_log = get_onu_up_down_log(tel, tree, onuid)
-            
-            
-        
-    tel.close()
-        
-    return
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
