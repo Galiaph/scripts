@@ -29,44 +29,48 @@ class VlanFixer:
         self._ip = ip
         self._username = user
         self._password = password
-        self._tree     = tree
-        self._onuid    = onuid
+        self._tree     = int(tree)
+        self._onuid    = int(onuid)
         
     def _connect(self, ip, port):
         return telnetlib.Telnet(ip, port, 5)
     
+    def _read_telnet(self, expected_str):
+        raw = self._connection.read_until(bytes(expected_str.encode('utf-8')))
+        debug_print(raw.decode('utf-8'))
+        
+        return raw.decode('utf-8')
+    
+    def _write_telnet(self, write_str):
+        self._connection.write(write_str.encode('utf-8') + b'\n')
+        
+        return
+    
     def _login(self):
-        raw = self._connection.read_until(b'User name:')
-        debug_print(raw.decode('utf-8'))
-        self._connection.write(self._username.encode('utf-8') + b'\n')
+        raw = self._read_telnet("User name:")
+        self._write_telnet(self._username)
         
-        raw = self._connection.read_until(b'User password:')
-        debug_print(raw.decode('utf-8'))
-        self._connection.write(self._password.encode('utf-8') + b'\n')
+        raw = self._read_telnet('User password:')
+        self._write_telnet(self._password)
         
-        raw = self._connection.read_until(b'>')
-        debug_print(raw.decode('utf-8'))
-        self._connection.write(b'enable\n')
+        raw = self._read_telnet('>')
+        self._write_telnet('enable')
         
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
-        self._connection.write(b'config\n')
+        raw = self._read_telnet('#')
+        self._write_telnet('config')
         
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
-        self._connection.write(b'vty output show-all\n')
+        raw = self._read_telnet('#')
+        self._write_telnet('vty output show-all')
         
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
+        raw = self._read_telnet('#')
         
         return True
     
     def _get_onu_status(self):
-        self._connection.write(b'show ont info 0/0 %d all\n' % (self._tree))
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
+        self._write_telnet('show ont info 0/0 %d all' % (self._tree))
+        decoded = self._read_telnet('#')
         
-        lines = raw.decode('utf-8').split("\r\n")[5:-4]
+        lines = decoded.split("\r\n")[5:-4]
         
         # print("\n".join(lines))
         
@@ -77,9 +81,12 @@ class VlanFixer:
             tree_num = int(cols[1])
             onu_num = int(cols[2])
             
-            if self._tree == tree_num & self._onuid == onu_num: 
+            # print(tree_num, onu_num, self._tree, self._onuid)
+            
+            if (self._tree == tree_num) & (self._onuid == onu_num): 
                 # print(cols)
                 onu_status = cols[5]
+                # print(onu_status)
                 if onu_status == "online":
                     return 0
                 elif onu_status == "offline":
@@ -111,15 +118,13 @@ class VlanFixer:
                 f.write("%s\n" % (line))
 
     def _get_onu_up_down_log(self):
-        self._connection.write(b'interface epon 0/0\n')
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
+        self._write_telnet('interface epon 0/0')
+        decoded = self._read_telnet('#')
         
-        self._connection.write(b'show ont up-down-log %d %d\n' % (self._tree, self._onuid))
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
+        self._write_telnet('show ont up-down-log %d %d' % (self._tree, self._onuid))
+        decoded = self._read_telnet('#')
         
-        lines = raw.decode('utf-8').split("\r\n")[4:-2]
+        lines = decoded.split("\r\n")[4:-2]
         
         records = []
         for line in lines:
@@ -157,28 +162,25 @@ class VlanFixer:
             
         # print(records)
         
-        self._connection.write(b'exit\n')
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
+        self._write_telnet('exit')
+        decoded = self._read_telnet('#')
             
         return records
     
-    def _re_register_onu(self):
-        self._connection.write(b'interface epon 0/0\n')
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
+    def _get_onu_info(self):
+        self._write_telnet("interface epon 0/0")
+        self._read_telnet("#")
+        self._write_telnet("show ont version %s %s" % (self._tree, self._onuid))
+        decoded = self._read_telnet("#")
         
-        self._connection.write(b'ont re-register %d %d\n' %  (self._tree, self._onuid))
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
-        
+        lines = decoded.split("\r\n")[2:-4]
+        print("\n".join(lines))
+        return
         
     def _show_mac_address_ont(self):
-        self._connection.write(b'show mac-address ont 0/0/%d %d\n' % (self._tree, self._onuid))
-        raw = self._connection.read_until(b'#')
-        debug_print(raw.decode('utf-8'))
+        self._write_telnet('show mac-address ont 0/0/%d %d' % (self._tree, self._onuid))
+        decoded = self._read_telnet('#')
         
-        decoded = raw.decode("utf-8")
         res = []
         
         if decoded.find("There is not any MAC address record") > -1:
@@ -195,6 +197,22 @@ class VlanFixer:
             res.append((mac, vlan))
             
         return res
+    
+    def _re_register_onu(self):
+        self._write_telnet('interface epon 0/0')
+        decoded = self._read_telnet('#')
+        
+        self._write_telnet('ont re-register %d %d' %  (self._tree, self._onuid))
+        decoded = self._read_telnet('#')
+        
+        print(decoded)
+        print("onu epon0/%s/%s re-registered" % (self._tree, self._onuid))
+        
+        self._write_telnet('exit')
+        decoded = self._read_telnet('#')
+        
+        return
+    
             
     def run(self):
         self._connection = self._connect(self._ip, 23)
@@ -220,6 +238,8 @@ class VlanFixer:
                 
                 up_down_log = self._get_onu_up_down_log()
                 self._save_up_down_log_csv(up_down_log)
+                
+                self._get_onu_info()
                 
                 self._re_register_onu()
                 
