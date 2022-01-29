@@ -167,6 +167,33 @@ class VlanFixer:
             
         return records
     
+    def _save_ont_info(self, info):
+        filename = "ont_info.csv"
+        
+        param_names = ["Vendor-ID", "OUI Version", "ONT model", 
+                       "Extended model", "ONT mac address", "ONT hardware version", 
+                       "ONT software version", "ONT chipset vendor ID", "ONT chipset model", 
+                       "ONT chipset revision", "ONT chipset version/date", "ONT firmware version"]
+        
+        if not os.path.exists(filename):
+            with open (filename, 'w') as f:
+                st = "poll_time;ip;tree;onuid"
+                for param in param_names:
+                    st = st + ";" + param
+                    
+                st = st + "\n"
+                
+                f.write(st)
+                
+        with open(filename, 'a') as f:
+            poll_time = datetime.datetime.now()
+            
+            line = "%s;%s;%d;%d" % (poll_time, self._ip, self._tree, self._onuid)
+            for param in param_names:
+                line = line + ";" + info[param]
+            
+            f.write("%s\n" % (line))
+            
     def _get_onu_info(self):
         self._write_telnet("interface epon 0/0")
         self._read_telnet("#")
@@ -174,8 +201,29 @@ class VlanFixer:
         decoded = self._read_telnet("#")
         
         lines = decoded.split("\r\n")[2:-4]
-        print("\n".join(lines))
-        return
+        # print("\n".join(lines))
+        
+        param_names = ["Vendor-ID", "OUI Version", "ONT model", 
+                       "Extended model", "ONT mac address", "ONT hardware version", 
+                       "ONT software version", "ONT chipset vendor ID", "ONT chipset model", 
+                       "ONT chipset revision", "ONT chipset version/date", "ONT firmware version"]
+        
+        param_dict = {}
+        for param in param_names:
+            param_dict[param] = ""
+        
+        for line in lines:
+            cols = line.split(":")
+            
+            param_name = cols[0].strip()
+            for row in param_names:
+                if param_name == row:
+                    param_dict[row] = ":".join(cols[1:])
+                    break
+                
+        debug_print(param_dict)
+                    
+        return param_dict
         
     def _show_mac_address_ont(self):
         self._write_telnet('show mac-address ont 0/0/%d %d' % (self._tree, self._onuid))
@@ -239,7 +287,8 @@ class VlanFixer:
                 up_down_log = self._get_onu_up_down_log()
                 self._save_up_down_log_csv(up_down_log)
                 
-                self._get_onu_info()
+                ont_info = self._get_onu_info()
+                self._save_ont_info(ont_info)
                 
                 self._re_register_onu()
                 
