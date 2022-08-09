@@ -5,15 +5,15 @@ __author__ = "Vadim Shemyatin"
 """
 
 with open("test.txt", "w") as f:
-    for i in range(1, 17):
+    for i in range(1, 9):
         for j in range(1, 65):
             f.write("!\n")
             f.write("epon onu-config-template EPON0/{}:{}\n".format(i, j))
             f.write(" cmd-sequence 1 epon onu all-port ctc vlan mode tag {}{:02d}\n".format(i, j))
-            f.write(" cmd-sequence 2 epon sla upstream pir 150000 cir 1000\n")
-            f.write(" cmd-sequence 3 epon sla downstream pir 150000 cir 1000\n")
-            f.write(" cmd-sequence 4 epon onu all-port loopback detect\n")
-            f.write(" cmd-sequence 5 epon fec enable\n")
+            f.write(" cmd-sequence 2 epon sla upstream pir 1000000 cir 10000\n")
+            f.write(" cmd-sequence 3 epon sla downstream pir 1000000 cir 10000\n")
+            # f.write(" cmd-sequence 4 epon onu all-port loopback detect\n")
+            f.write(" cmd-sequence 4 epon fec enable\n")
 
 
 """

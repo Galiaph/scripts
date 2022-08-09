@@ -1,0 +1,3072 @@
+!
+epon onu-config-template EPON0/1:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 101
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 102
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 103
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 104
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 105
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 106
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 107
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 108
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 109
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 110
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 111
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 112
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 113
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 114
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 115
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 116
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 117
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 118
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 119
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 120
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 121
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 122
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 123
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 124
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 125
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 126
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 127
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 128
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 129
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 130
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 131
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 132
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 133
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 134
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 135
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 136
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 137
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 138
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 139
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 140
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 141
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 142
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 143
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 144
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 145
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 146
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 147
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 148
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 149
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 150
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 151
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 152
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 153
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 154
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 155
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 156
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 157
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 158
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 159
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 160
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 161
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 162
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 163
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/1:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 164
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 201
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 202
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 203
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 204
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 205
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 206
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 207
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 208
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 209
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 210
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 211
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 212
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 213
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 214
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 215
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 216
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 217
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 218
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 219
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 220
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 221
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 222
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 223
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 224
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 225
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 226
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 227
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 228
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 229
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 230
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 231
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 232
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 233
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 234
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 235
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 236
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 237
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 238
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 239
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 240
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 241
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 242
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 243
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 244
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 245
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 246
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 247
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 248
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 249
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 250
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 251
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 252
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 253
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 254
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 255
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 256
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 257
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 258
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 259
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 260
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 261
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 262
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 263
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/2:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 264
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 301
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 302
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 303
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 304
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 305
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 306
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 307
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 308
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 309
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 310
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 311
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 312
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 313
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 314
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 315
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 316
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 317
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 318
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 319
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 320
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 321
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 322
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 323
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 324
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 325
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 326
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 327
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 328
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 329
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 330
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 331
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 332
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 333
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 334
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 335
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 336
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 337
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 338
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 339
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 340
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 341
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 342
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 343
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 344
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 345
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 346
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 347
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 348
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 349
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 350
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 351
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 352
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 353
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 354
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 355
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 356
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 357
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 358
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 359
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 360
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 361
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 362
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 363
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/3:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 364
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 401
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 402
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 403
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 404
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 405
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 406
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 407
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 408
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 409
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 410
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 411
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 412
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 413
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 414
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 415
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 416
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 417
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 418
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 419
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 420
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 421
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 422
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 423
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 424
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 425
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 426
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 427
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 428
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 429
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 430
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 431
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 432
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 433
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 434
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 435
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 436
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 437
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 438
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 439
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 440
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 441
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 442
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 443
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 444
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 445
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 446
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 447
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 448
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 449
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 450
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 451
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 452
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 453
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 454
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 455
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 456
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 457
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 458
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 459
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 460
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 461
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 462
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 463
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/4:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 464
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 501
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 502
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 503
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 504
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 505
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 506
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 507
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 508
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 509
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 510
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 511
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 512
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 513
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 514
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 515
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 516
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 517
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 518
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 519
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 520
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 521
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 522
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 523
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 524
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 525
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 526
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 527
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 528
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 529
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 530
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 531
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 532
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 533
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 534
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 535
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 536
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 537
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 538
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 539
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 540
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 541
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 542
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 543
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 544
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 545
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 546
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 547
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 548
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 549
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 550
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 551
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 552
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 553
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 554
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 555
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 556
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 557
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 558
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 559
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 560
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 561
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 562
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 563
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/5:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 564
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 601
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 602
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 603
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 604
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 605
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 606
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 607
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 608
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 609
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 610
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 611
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 612
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 613
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 614
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 615
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 616
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 617
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 618
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 619
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 620
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 621
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 622
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 623
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 624
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 625
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 626
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 627
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 628
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 629
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 630
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 631
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 632
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 633
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 634
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 635
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 636
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 637
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 638
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 639
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 640
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 641
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 642
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 643
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 644
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 645
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 646
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 647
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 648
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 649
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 650
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 651
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 652
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 653
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 654
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 655
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 656
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 657
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 658
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 659
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 660
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 661
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 662
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 663
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/6:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 664
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 701
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 702
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 703
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 704
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 705
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 706
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 707
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 708
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 709
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 710
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 711
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 712
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 713
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 714
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 715
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 716
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 717
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 718
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 719
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 720
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 721
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 722
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 723
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 724
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 725
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 726
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 727
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 728
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 729
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 730
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 731
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 732
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 733
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 734
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 735
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 736
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 737
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 738
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 739
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 740
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 741
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 742
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 743
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 744
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 745
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 746
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 747
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 748
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 749
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 750
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 751
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 752
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 753
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 754
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 755
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 756
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 757
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 758
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 759
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 760
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 761
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 762
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 763
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/7:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 764
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:1
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 801
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:2
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 802
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:3
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 803
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:4
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 804
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:5
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 805
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:6
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 806
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:7
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 807
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:8
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 808
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:9
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 809
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:10
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 810
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:11
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 811
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:12
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 812
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:13
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 813
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:14
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 814
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:15
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 815
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:16
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 816
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:17
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 817
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:18
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 818
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:19
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 819
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:20
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 820
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:21
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 821
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:22
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 822
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:23
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 823
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:24
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 824
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:25
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 825
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:26
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 826
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:27
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 827
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:28
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 828
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:29
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 829
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:30
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 830
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:31
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 831
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:32
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 832
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:33
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 833
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:34
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 834
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:35
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 835
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:36
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 836
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:37
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 837
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:38
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 838
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:39
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 839
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:40
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 840
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:41
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 841
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:42
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 842
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:43
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 843
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:44
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 844
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:45
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 845
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:46
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 846
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:47
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 847
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:48
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 848
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:49
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 849
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:50
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 850
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:51
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 851
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:52
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 852
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:53
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 853
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:54
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 854
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:55
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 855
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:56
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 856
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:57
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 857
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:58
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 858
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:59
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 859
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:60
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 860
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:61
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 861
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:62
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 862
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:63
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 863
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable
+!
+epon onu-config-template EPON0/8:64
+ cmd-sequence 1 epon onu all-port ctc vlan mode tag 864
+ cmd-sequence 2 epon sla upstream pir 1000000 cir 10000
+ cmd-sequence 3 epon sla downstream pir 1000000 cir 10000
+ cmd-sequence 4 epon fec enable

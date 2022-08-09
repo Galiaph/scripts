@@ -33,13 +33,15 @@ def clear_tree(ip, user, pas, tree):
         tel.read_until(b'#')
 
         start = 1
+        end = 0
 
         if tree == 0:
-            tree = 16
+            end = 16
         else:
             start = tree
+            end = tree
 
-        for index in range(start, tree+1):
+        for index in range(start, end+1):
             print("\tInterface epon 0/{}".format(index))
             tel.write("show ont info {} all\n".format(index).encode('utf-8'))
             parse = tel.read_until(b'#').decode('utf-8')
